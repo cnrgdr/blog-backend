@@ -26,7 +26,8 @@ const PORT = process.env.PORT || 5000;
 const whitelist = [
   'http://localhost:3000', // React geliştirme sunucusu
   'http://localhost:5173',
-  'https://blog-frontend-g5atsqsqx-cnrgdrs-projects.vercel.app'
+  'https://blog-frontend-g5atsqsqx-cnrgdrs-projects.vercel.app',
+  'https://blog-frontend-8fpq.vercel.app'
 ];const corsOptions = {
   origin: function (origin, callback) {
     // 'origin' yoksa (Postman/Insomnia gibi araçlar) veya beyaz listedeyse izin ver
