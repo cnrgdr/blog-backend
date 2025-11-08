@@ -1,0 +1,5 @@
+# Bağımlılıklar
+/node_modules
+
+# Çevre Değişkenleri Dosyası
+.env
